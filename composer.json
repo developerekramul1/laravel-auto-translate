@@ -13,7 +13,7 @@
     },
     "require": {
         "php": ">=8.0",
-        "stichoza/google-translate-php": "^6.0",
+        "stichoza/google-translate-php": "^5.3",
         "illuminate/support": "^10.0"
     },
     "extra": {
