@@ -1,0 +1,26 @@
+{
+    "name": "developerekramul/laravel-auto-translate",
+    "description": "Automatic Google Translate + Banglish toggle for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Developerekramul\\AutoTranslate\\": "src/"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    },
+    "require": {
+        "php": ">=8.0",
+        "stichoza/google-translate-php": "^6.0",
+        "illuminate/support": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Developerekramul\\AutoTranslate\\AutoTranslateServiceProvider"
+            ]
+        }
+    }
+}
